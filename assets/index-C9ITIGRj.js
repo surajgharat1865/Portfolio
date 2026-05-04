@@ -44,6 +44,6 @@
   
   </div>
 </section>
- <section id="contact"> <h2>Contact</h2> <p>📧 Email: surajgharat1865@gmail.com</p> <p>📞 Phone: +91 8454834658</p> <div class="contact-links">  <p> <i class="fab fa-github"></i> <a href="https://github.com/surajgharat1865" target="_blank"> GitHub Projects </a> </p> </div>
+ <section id="contact"> <h2>Contact</h2> <p>📧 Email: surajgharat1865@gmail.com</p> <p>📞 Phone: +91 8454834658</p> <div class="contact-links"> <p> <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/suraj-gharat/" target="_blank"> LinkedIn Profile </a> </p> <p> <i class="fab fa-github"></i> <a href="https://github.com/surajgharat1865" target="_blank"> GitHub Projects </a> </p> </div>
 </section>
 `,document.getElementById(`car`).src=t,document.getElementById(`snake`).src=n,document.getElementById(`typingImg`).src=r,pi.from(`.hero-title`,{y:-50,opacity:0,duration:1}),pi.from(`.hero-desc`,{opacity:0,delay:1,duration:1});var mi=[`Frontend Developer`,`PHP & MySQL Developer`,`BSc IT Student`],hi=0,gi=0,_i=``,vi=!1;function yi(){let e=document.getElementById(`typing-text`);if(e){if(!vi&&gi<=mi[hi].length?_i=mi[hi].substring(0,gi++):vi&&gi>=0&&(_i=mi[hi].substring(0,gi--)),e.innerHTML=_i,gi===mi[hi].length){vi=!0,setTimeout(yi,1e3);return}gi===0&&(vi=!1,hi=(hi+1)%mi.length),setTimeout(yi,vi?50:100)}}yi();
